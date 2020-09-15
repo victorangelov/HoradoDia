@@ -1,2 +1,0 @@
-# HoradoDia
- projeto HoradoDia
