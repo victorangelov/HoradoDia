@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo p/ Exercícios</title>
+    <title>Hora do Dia</title>
+    <!--link externo do css-->
     <link rel="stylesheet" href="css/estilo.css">
+    <!--link externo do script-->
     <script src="script/script.js"></script>
 </head>
-<body>
+<!--carregando a função ao carregar a página-->
+<body onload='carregar()'>
     <header>
-        <h1>Modelo para Exercícios</h1>
+        <h1>Hora do Dia</h1>
     </header>
     <section>
-        <div>
-            <p>Testando</p>
+        <div id='msg'>
+            <p>Aqui vai aparecer a mensagem</p>
         </div>
-        <div id='res'>
-            <p>...resposta</p>
+        <div id='foto'>
+            <img id='imagem' src='img/manha.jpeg' alt="foto do dia" style="border-radius: 50%" width="250" height="250">
         </div>
     </section>
     <footer>

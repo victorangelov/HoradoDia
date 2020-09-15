@@ -4,15 +4,21 @@ body{
 }
 header{
     color: white;
-    text-align: center;    
+    text-align: center; 
+       
 }
 section{
-    color: white;
+    /*alterando cor de fundo da sessão */
     background: white;
+    /*largura da sessão */
     width: 500px;
+    /* centralizando*/
     margin: auto;
+    /* espaço entre o que está dentro e a margem interna*/
     padding: 15px;
+    /* borda arredondada*/
     border-radius: 10px;
+    /* sombra da caixa*/
     box-shadow: 5px 5px 10px rgb(54, 52, 52);
 }
 footer{
@@ -20,9 +26,10 @@ footer{
     text-align: center;
     font-style: italic;
 }
-div#res{
-    color: rgb(54, 51, 51);
-}
+
 div{
-    color: black;
+    /* alinhando imagem ao centro*/
+    text-align: center;
+    /* espalo interno da borda*/
+    padding: 5px;
 }
