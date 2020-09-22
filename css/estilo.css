@@ -19,7 +19,7 @@ section{
     /* borda arredondada*/
     border-radius: 10px;
     /* sombra da caixa*/
-    box-shadow: 5px 5px 10px rgb(54, 52, 52);
+    box-shadow: 3px 5px 10px rgba(54, 52, 52, 0.514);
 }
 footer{
     color: white;
